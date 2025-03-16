@@ -1,0 +1,59 @@
+Monthly Bill Optimizer - Getting Started
+
+📌 Introduction
+
+The Monthly Bill Optimizer is a Python-based project that helps users:
+✅ Log and store monthly expenses
+✅ Categorize expenses using Machine Learning (K-Means Clustering)
+✅ Optimize budget allocation using Linear Programming (PuLP)
+✅ Visualize expense distribution with Seaborn & Matplotlib
+
+This guide will help you set up, install dependencies, and run the project efficiently. It also includes essential Git commands to manage versions properly.
+
+📂 Folder Structure
+
+Ensure you have the following structure after cloning the repository:
+
+📁 Monthly_Bill_Optimizer
+│── main.py             # Main program entry point
+│── data.py             # Handles user input & CSV storage
+│── clustering.py       # Categorizes expenses using K-Means
+│── optimization.py     # Budget optimization using Linear Programming
+│── visualization.py    # Generates expense graphs
+│── bills.csv           # Stores expense data (generated dynamically)
+│── requirements.txt    # Lists required Python libraries
+
+ Step 1: Clone the Project from GitHub
+
+Run the following command to clone the project to your local machine:
+
+git clone <repository_url>
+cd <file_name>
+
+Tip: Always create a new branch before making changes to prevent accidental data loss.
+
+git checkout -b <branch_name>
+
+ Step 2: Set Up Your Python Environment
+
+Ensure you have Python 3.x installed. Check by running:
+
+python --version or python -v
+
+Install Required Dependencies
+
+To install the necessary Python libraries, run:
+
+pip install pandas numpy scikit-learn pulp statsmodels matplotlib seaborn
+
+This installs:
+
+pandas → Handles data storage & CSV processing
+
+numpy → Supports numerical computations
+
+scikit-learn → Machine Learning (K-Means Clustering)
+
+pulp → Optimization (Linear Programming)
+
+matplotlib & seaborn → Data visualization
