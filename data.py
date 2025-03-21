@@ -6,7 +6,7 @@ def collect_expenses():
     print("\nEnter your monthly bills (Type 'done' when finished):")
     
     while True:
-        name = input("Enter bill name (e.g., Rent, Internet): ")
+        name = input("Enter bill name (e.g., Rent, Internet, Electricty): ")
         if name.lower() == 'done':
             break
         try:
