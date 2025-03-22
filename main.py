@@ -23,5 +23,8 @@ def main():
     # Step 5: Visualize results
     visualization.plot_expenses(df)
 
+    # 📈 Predict next month's bills
+    prediction.predict_expenses(df)
+
 if __name__ == "__main__":
     main()
