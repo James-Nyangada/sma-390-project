@@ -27,8 +27,8 @@ Ensure you have the following structure after cloning the repository:
 
 Run the following command to clone the project to your local machine:
 
-git clone <repository_url>
-cd <file_name>
+git clone <repository_url> done
+cd <file_name> done
 
 Tip: Always create a new branch before making changes to prevent accidental data loss.
 
@@ -57,3 +57,5 @@ scikit-learn → Machine Learning (K-Means Clustering)
 pulp → Optimization (Linear Programming)
 
 matplotlib & seaborn → Data visualization
+
+
